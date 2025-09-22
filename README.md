@@ -1,21 +1,22 @@
 # MediSuite-Ai-Agent
-A medical ai agent that helps automating the process of hospitals / insurance workflow 
 
-`Update` We secured Runner-up award in [GenAi Agent Hackathon Cairo 2025](https://github.com/stakpak/genai-agent-hackathon-cairo-2025) organized  by [Stackpak](https://github.com/stakpak)
-__________________________________________
+An AI-powered medical assistant designed to streamline hospital and insurance workflows by automating patient data handling, medical coding, and document generation.
+
+---
+
 ## Features
 
 ### 1. Interactive Chat Interface
 - Modern, user-friendly GUI with chat-like interface
 - Real-time responses and suggestions
 - Support for multiple interaction modes
-- Toast notifications for important updates
+- Notifications for important updates
 - Status bar displaying current application state
 
 ### 2. Multiple Input Methods
 - **Guided Mode**: Step-by-step assistance
 - **Summary Mode**: Bulk information processing
-- **Document Upload**: Support for PDF and image files
+- **Document Upload**: Supports PDF and image files
   - PDF document processing
   - Image (JPG, PNG) processing
   - OCR capabilities for text extraction
@@ -31,60 +32,19 @@ __________________________________________
 - Structured patient data collection
 - Insurance information processing
 - Data validation and verification
-- Secure data handling
+- Secure handling of sensitive patient data
 
 ### 5. Document Generation
-- CMS-1500 form generation
-- PDF claim form creation
-- Built-in PDF preview capability
-- Support for multiple operating systems
+- Automatic CMS-1500 form generation
+- PDF claim form creation with built-in preview
+- Cross-platform support for document handling
 
 ### 6. Workflow Management
-- Conversation state tracking
-- Progress monitoring
-- Error handling and recovery
-- Session management
+- Conversation state tracking for multi-step interactions
+- Progress monitoring and session management
+- Error handling and recovery mechanisms
 
-## Installation
-
-1. Clone the repository:
-```bash
-git clone https://github.com/MahmoudRabea13/MediSuite-Ai-Agent.git
-cd MediSuite-Ai-Agent
-```
-
-2. Install required dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-3. Install system dependencies:
-- Tesseract OCR ([Download](https://github.com/UB-Mannheim/tesseract/wiki))
-- Poppler ([Download](https://blog.alivate.com.au/poppler-windows/))
-
-4. Configure paths in `Agent.py`:
-```python
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-POPPLER_PATH = r'C:\Program Files\poppler-24.08.0\Library\bin'
-```
-
-## Usage
-
-1. Start the application:
-```bash
-python app.py
-```
-
-2. Choose your preferred interaction mode:
-- Guided mode (step-by-step)
-- Summary mode (all information at once)
-- Document upload mode (PDF/JPG)
-
-3. Follow the assistant's prompts to:
-- Enter patient information
-- Provide clinical notes
-- Confirm suggested codes
-- Generate and review claim forms
+---
 
 ## Use Cases
 
@@ -111,14 +71,3 @@ python app.py
    - Confirm diagnostic codes
    - Generate CMS-1500 forms
    - Preview and export claims
-
-## Requirements
-
-See [requirements.txt](requirements.txt) for full list of dependencies.
-
-</div>
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
