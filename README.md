@@ -1,4 +1,4 @@
-# MediSuite-Ai-Agent
+# InnoMediHelp – AI Innovation in Healthcare
 
 An AI-powered medical assistant designed to streamline hospital and insurance workflows by automating patient data handling, medical coding, and document generation.
 
@@ -71,3 +71,4 @@ An AI-powered medical assistant designed to streamline hospital and insurance wo
    - Confirm diagnostic codes
    - Generate CMS-1500 forms
    - Preview and export claims
+
